@@ -11,9 +11,7 @@ const rates = {
 
 const convertCurrency = (amount, fromConvert, toConvert) => {
   const convertAmount = amount / rates[fromConvert];
-
   const finalAmount = convertAmount * rates[toConvert];
-
   return finalAmount;
 };
 
